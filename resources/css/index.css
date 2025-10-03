@@ -38,3 +38,21 @@ h2 {
 button {
   width: 300px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "portrait Thesis2010 AIMagazine";
+  /*grid-gap: 15px;*/
+}
+
+.portrait {
+  grid-area: portrait;
+}
+
+.Thesis2010 {
+  grid-area: Thesis2010;
+}
+
+.AIMagazine {
+  grid-area: AIMagazine;
+}
