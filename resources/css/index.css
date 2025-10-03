@@ -41,8 +41,9 @@ button {
 
 .grid-container {
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-areas: "portrait Thesis2010 AIMagazine";
-  /*grid-gap: 15px;*/
 }
 
 .portrait {
