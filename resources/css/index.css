@@ -24,6 +24,14 @@ h2 {
   font-size: 18px;
 }
 
+.nav_and_intro tr td {
+  width: 450px;
+}
+
+.nav_and_intro p {
+  font-size: 18px;
+}
+
 .backtable {
     border-radius: 20px;
     border: 2px solid black;
@@ -56,4 +64,12 @@ button {
 
 .AIMagazine {
   grid-area: AIMagazine;
+}
+
+.navclass {
+  grid-area: navclass;
+}
+
+.introduction {
+  grid-area: introduction;
 }
